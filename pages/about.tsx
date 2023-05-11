@@ -1,8 +1,12 @@
 import ExpCard from '@/components/ExpCard';
+import Head from 'next/head';
 
 export default function About() {
     return(
         <>
+        <Head>
+            <title>about.</title>
+        </Head>
         <section className="flex md:flex-row flex-col mt-3 items-center">
             <div className="flex-1">
                 <div>
