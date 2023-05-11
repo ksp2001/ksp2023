@@ -73,7 +73,7 @@ export default function About() {
         </section>
         <div>
             I am currently <b>open to work</b>.
-            <div className="text-sm"><a href="https://www.linkedin.com/in/ketki-panse/" className="hover:text-red-500"><FontAwesomeIcon icon={faLinkedin} /></a> <a href="https://github.com/ksp2001" className="hover:text-red-500"><FontAwesomeIcon icon={faGithub} /></a></div>
+            <div className="text-sm"><a href="https://www.linkedin.com/in/ketki-panse/" className="hover:text-red-500 text-sm"><FontAwesomeIcon icon={faLinkedin} className="text-sm" /></a> <a href="https://github.com/ksp2001" className="hover:text-red-500 text-sm"><FontAwesomeIcon icon={faGithub} className="text-sm" /></a></div>
         </div>
         </>
     )
