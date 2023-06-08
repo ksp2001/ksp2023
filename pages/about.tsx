@@ -1,9 +1,10 @@
 import ExpCard from '@/components/ExpCard';
 import Head from 'next/head';
+import {motion as m} from 'framer-motion';
 
 export default function About() {
     return(
-        <>
+        <m.div initial={{opacity:0}} animate={{opacity: 1}} transition={{duration: 1, ease: 'easeInOut'}} exit={{opacity: 0}}>
         <Head>
             <title>about.</title>
         </Head>
@@ -88,6 +89,6 @@ export default function About() {
                 </a>
             </div>
         </div>
-        </>
+        </m.div>
     )
 }
