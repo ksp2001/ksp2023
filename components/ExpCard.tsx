@@ -14,8 +14,8 @@ export default function ExpCard({date, title, position, children, tags}: ExpCard
             <div className="text-sm font-bold" role="heading" aria-level={1}>{title}</div>
             <div className="text-sm" role="heading" aria-level={2}>{position}</div>
             <div className="text-sm text-justify pt-1">{children}</div>
-            <div className="inline-flex text-xs text-center space-x-1">
-                {tags.map(value => (<div className="rounded-full bg-gradient-to-r from-red-600 to-red-400 px-1 align-middle" key={value}>{value}</div>))}
+            <div className="inline-flex flex-wrap text-xs text-center space-x-1">
+                {tags.map(value => (<div className="rounded-full bg-gradient-to-r from-red-600 to-red-400 px-1 align-middle " key={value}>{value}</div>))}
             </div>
         </div>
     )
