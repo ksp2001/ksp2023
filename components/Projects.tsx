@@ -25,7 +25,7 @@ function Projects() {
                     image="/emqueteati.png"
                 >
                     <>
-                        <p>A cross-platform project to facilitate broker connections to publish and receive messages through the MQTT protocol, predominantly used for IoT applications, to send and receive data from sensors and other devices.</p>
+                        <p>A cross-platform mobile app to facilitate broker connections to publish and receive messages through the MQTT protocol, predominantly used for IoT applications, to send and receive data from sensors and other devices.</p>
                     </>
                 </ProjectCard>
             </li>
